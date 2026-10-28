@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Kumar — Full Stack Developer (Java · Spring Boot · React)</title>
+    <meta
+      name="description"
+      content="Portfolio of Abhishek Kumar, a full stack developer building secure, well-structured web applications with Java, Spring Boot, React and SQL databases."
+    />
+    <meta name="author" content="Abhishek Kumar" />
+    <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- __SITE_URL__ is replaced with VITE_SITE_URL at build time; set it in .env so these are absolute URLs (required by most social networks). -->
+    <link rel="canonical" href="__SITE_URL__/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Abhishek Kumar" />
+    <meta property="og:title" content="Abhishek Kumar — Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Java, Spring Boot and React developer. Projects, skills, experience and resume."
+    />
+    <meta property="og:url" content="__SITE_URL__/" />
+    <meta property="og:image" content="__SITE_URL__/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Abhishek Kumar — Full Stack Developer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Abhishek Kumar — Full Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Java, Spring Boot and React developer. Projects, skills, experience and resume."
+    />
+    <meta name="twitter:image" content="__SITE_URL__/og-image.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Apply the saved/system theme before first paint to avoid a light flash. -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme')
+          var dark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches
+          document.documentElement.classList.toggle('dark', dark)
+        } catch (e) {}
+      })()
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p style="padding: 1rem; font-family: sans-serif">
+        This site needs JavaScript. You can still
+        <a href="/Abhishek_Kumar_Resume.pdf">download my resume</a> or email
+        <a href="mailto:abhishekkr.1756@gmail.com">abhishekkr.1756@gmail.com</a>.
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
